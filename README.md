@@ -15,24 +15,13 @@
 
 ## Config
 ```yaml
-parameters:
-  #seconds
-  time: 120
-  #Folder world name
-  worlds:
-    - "world"
-    - "minage"
-  broadcast:
-    times: [60, 30, 15, 10, 3, 2, 1]
-    message: "Clearlagg dans §6{s} §fseconde(s)"
-    finish: "Clearlag §6{e} §fEntités clear"
-  sound:
-    enabled: true
-    name: "random.levelup"
-    volume: 0.5
-    pitch: 1
-  #animals, monsters ect
-  clear_entities: true
+spawn:
+  world: "default"
+  x: 0
+  y: 70
+  z: 0
+  teleport_message: "Vous avez été téléporté au spawn !"
+
 ```
 - **time** → Délai du clearlag
 - **worlds** → Liste des mondes ou le clearlag peut être effectué
