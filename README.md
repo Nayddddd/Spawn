@@ -33,4 +33,4 @@ spawn:
 | `/spawn` | Se téléporter au spawn | `nayd.spawn` |
 
 # Help :
-Si vous avez besoin d'aide, me dm sur discord **.nayd_**
+Si vous avez besoin d'aide, me dm sur discord `.nayd_`
