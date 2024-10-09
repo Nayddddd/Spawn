@@ -1,0 +1,6 @@
+spawn:
+  world: "default"
+  x: 0
+  y: 70
+  z: 0
+  teleport_message: "Vous avez été téléporté au spawn !"

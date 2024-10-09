@@ -1,0 +1,9 @@
+name: Spawn
+author: Nayd
+main: Nayd\Spawn\Main
+api: 5.0.0
+version: 1.0.0
+
+permissions:
+  spawn.nayd:
+    default: true
