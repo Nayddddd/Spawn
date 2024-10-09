@@ -6,7 +6,7 @@
 --------------------
 
 # Installation
-1. Vous devez mettre le plugin en .phar [.phar]([https://pmt.mcpe.fun/create/](https://phar-converter.github.io)) ou en dossier avec le plugin [devtools](https://poggit.pmmp.io/p/DevTools/) dans le dossier **plugins**
+1. Vous devez mettre le plugin en .phar [.phar](https://phar-converter.github.io) ou en dossier avec le plugin [devtools](https://poggit.pmmp.io/p/DevTools/) dans le dossier **plugins**
 
 # Configuration:
 | **Type**         | **Configuration**          | **Informations**                                                                                       |
