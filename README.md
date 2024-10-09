@@ -1,17 +1,17 @@
 <div align="center">
     <h1>Spawn</h1>
-    <p>Supprimez des entités</p>
+    <p>Se téléporter au spawn</p>
 </div>
 
 --------------------
 
 # Installation
-1. Vous devez mettre le plugin en .phar [.phar](https://pmt.mcpe.fun/create/)/en dossier avec le plugin [devtools](https://poggit.pmmp.io/p/DevTools/) dans le dossier **plugins**
+1. Vous devez mettre le plugin en .phar [.phar](https://pmt.mcpe.fun/create/) ou en dossier avec le plugin [devtools](https://poggit.pmmp.io/p/DevTools/) dans le dossier **plugins**
 
 # Configuration:
 | **Type**         | **Configuration**          | **Informations**                                                                                       |
 |------------------|----------------------------|--------------------------------------------------------------------------------------------------------|
-| **__Config__**   | `resources\config.yml`     | Ce fichier de configuration contrôle l'entierté du clearlag ainsi que ses paramètres                   |
+| **__Config__**   | `resources\config.yml`     | Ce fichier de configuration contrôle les coordonnées du spawn ainsi                                    |
 
 ## Config
 ```yaml
