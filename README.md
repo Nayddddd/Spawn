@@ -6,12 +6,12 @@
 --------------------
 
 # Installation
-1. Vous devez mettre le plugin en .phar [.phar](https://pmt.mcpe.fun/create/) ou en dossier avec le plugin [devtools](https://poggit.pmmp.io/p/DevTools/) dans le dossier **plugins**
+1. Vous devez mettre le plugin en .phar [.phar]([https://pmt.mcpe.fun/create/](https://phar-converter.github.io)) ou en dossier avec le plugin [devtools](https://poggit.pmmp.io/p/DevTools/) dans le dossier **plugins**
 
 # Configuration:
 | **Type**         | **Configuration**          | **Informations**                                                                                       |
 |------------------|----------------------------|--------------------------------------------------------------------------------------------------------|
-| **__Config__**   | `resources\config.yml`     | Ce fichier de configuration contrôle les coordonnées du spawn ainsi                                    |
+| **__Config__**   | `resources\config.yml`     | Ce fichier de configuration contrôle les coordonnées du spawn ainsi que d'autres paramètres            |
 
 ## Config
 ```yaml
@@ -23,16 +23,14 @@ spawn:
   teleport_message: "Vous avez été téléporté au spawn !"
 
 ```
-- **time** → Délai du clearlag
-- **worlds** → Liste des mondes ou le clearlag peut être effectué
-- **broadcast** → tout ce qui concerne les messages automatiques ainsi que leur délai
-- **sound** → Son lors d'un broadcast et à la fin du clearlag
-- **clear_entities** → Activer pour supprimer les entités autres que les items
-
+- **world** → Monde dans lequel le joueur va se téléporter
+- **x, y, z** → Coordonnées où le joueur va être téléporté
+- **teleport_message** → Message envoyé au joueur lors après la téléportation
+  
 ### Commandes : *(plugin.yml)*
 | Commande    | Description          | Permission                          |
 |-------------|----------------------|-------------------------------------|
-| `/clearlag` | Executer le clearlag | `nepheliashop.permissions.clearlag` |
+| `/spawn` | Se téléporter au spawn | `nayd.spawn` |
 
-# Features :
-Contactez-nous sur discord pour les ajouter
+# Help :
+Si vous avez besoin d'aide, me dm sur discord **.nayd_**
